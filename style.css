@@ -2,6 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
 
 h1{
@@ -45,6 +46,13 @@ h2{
     border-radius: 5px;
     font-weight: 700;
     color: white;
+    transition: ease-in .50s;
+    
+}
+
+.link-button:hover{
+    background: orangered;
+    color: #000;
     
 }
 
@@ -81,14 +89,27 @@ h2{
     border-left: 7px solid;
     border-image: linear-gradient(purple, tomato);
     border-image-slice: 1;
+    transition: ease 1s;
 }
 
 #experience-id2{
     border-left: 7px solid;
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
+    transition: ease 1s;
 }
 
 footer p{
     text-align: center;
 }
+
+#experience-id1:hover{
+    padding: 3%;
+}
+
+#experience-id2:hover{
+    padding: 3%;
+}
+
+
+
